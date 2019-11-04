@@ -1,0 +1,15 @@
+/* @import '~nativescript-theme-core/css/core.light.css'; */
+
+.page {
+    align-items: left;
+    flex-direction: column;
+    padding-top: 60px;
+  }
+  
+.button{
+    color: red;
+}
+
+.view{
+    padding-top: 25%;
+}

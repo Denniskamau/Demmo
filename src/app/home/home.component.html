@@ -1,0 +1,12 @@
+<!-- This is the home page. -->
+<!-- Look in the login folder for the login code. -->
+<ActionBar title="DEMO APP"></ActionBar>
+
+<StackLayout class="view">
+    <Label class="body m-20" [text]="message" textWrap="true"></Label>
+    <Label text="Count"></Label>
+    <Label text='{{counter}}'></Label>
+    <Button text="Tap me!" (tap)="onTap($event)" class="btn btn-primary"></Button>
+    <!-- <Button class="btn btn-primary" text="Log out" (tap)="logout()"></Button> -->
+    
+</StackLayout>
